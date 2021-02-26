@@ -162,7 +162,6 @@ p > .fas {
 /* HIGHLIGHTS */
 
 .highlight {
-  border: 1px solid black;
   margin: 25px;
   padding: 10px;
   display: grid;
@@ -172,28 +171,43 @@ p > .fas {
   height: 500px;
 }
 
-.item1,.item2,.item3 {
-  border: 0.1px solid #808080;
+.high-text {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  color: white;
+}
+
+.high-text>h2 {
+  font-size: 1.5rem;
+}
+
+.cover-byline {
+  display: flex;
+  justify-content: justify;
 }
 
 .item1 {
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  background-image: linear-gradient(rgba(255,0,0,0.3), rgba(0,0,0,0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position:relative;
 }
 
 .item2 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
+  background-image:linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
   background-size: cover;
   background-repeat: no-repeat;
+  position:relative;
 }
 
 .item3 {
-  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+  background-image:linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.9)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
   background-size: cover;
   background-repeat: no-repeat;
+  position:relative;
 }
 
 
